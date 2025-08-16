@@ -1,0 +1,285 @@
+# vsim -sv_seed 610878 -voptargs="+acc" -assertdebug -c testbench -do " log -r /*;run -all;" -l uart_4800_RXTX_test_610878.log "+UVM_TESTNAME=uart_4800_RXTX_test" "+UVM_VERBOSITY=UVM_HIGH" 
+# Start time: 01:05:07 on Jun 18,2025
+# Loading /tmp/dinhhuy_1@ictc-eda-ldap.ipa.test_dpi_544918/linux_x86_64_gcc-11/export_tramp.so
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 10.6d_1 linux_x86_64 Apr 11 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.uart_if(fast)
+# Loading work.uvm_pkg(fast)
+# Loading work.uart_pkg(fast)
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# different random seeds from your non-debug simulations.
+# Loading work.env_pkg(fast)
+# Loading work.seq_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.testbench(fast)
+# Loading work.uart_if(fast)
+# Loading work.uart_dut(fast)
+# Compiling /tmp/dinhhuy_1@ictc-eda-ldap.ipa.test_dpi_544918/linux_x86_64_gcc-5.3.0/exportwrapper.c
+# Compiling /tmp/dinhhuy_1@ictc-eda-ldap.ipa.test_dpi_544918/linux_x86_64_gcc-11/exportwrapper.c
+# Loading /tmp/dinhhuy_1@ictc-eda-ldap.ipa.test_dpi_544918/linux_x86_64_gcc-11/vsim_auto_compile.so
+#  log -r /*
+# run -all
+# UVM_INFO /ictc/other/tools/QuestaDVA/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# ----------------------------------------------------------------
+# UVM-1.2
+# (C) 2007-2014 Mentor Graphics Corporation
+# (C) 2007-2014 Cadence Design Systems, Inc.
+# (C) 2006-2014 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# (C) 2013-2014 NVIDIA Corporation
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO /ictc/other/tools/QuestaDVA/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(453) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+# UVM_INFO @ 0: reporter [RNTST] Running test uart_4800_RXTX_test...
+# UVM_INFO ./../testcases/uart_base_test.sv(60) @ 0: uvm_test_top [build_phase] ENTERED......
+# UVM_INFO ./../testcases/uart_base_test.sv(80) @ 0: uvm_test_top [build_phase] Exiting.....
+# UVM_INFO ./../tb/uart_environment.sv(20) @ 0: uvm_test_top.uart_env [build_phase] Entered...
+# UVM_INFO ./../tb/uart_environment.sv(48) @ 0: uvm_test_top.uart_env [build_phase] lhs_config: 
+# ---------------------------------------------
+# Name           Type              Size  Value 
+# ---------------------------------------------
+# lhs_cfg        uart_config       -     @370  
+#   data_width   integral          32    'd7   
+#   parity_type  parity_type_enum  2     NONE  
+#   stop_width   integral          32    'd2   
+#   baud_rate    integral          32    'd4800
+#   mode         mode_enum         32    RX_TX 
+# ---------------------------------------------
+# 
+# UVM_INFO ./../tb/uart_environment.sv(49) @ 0: uvm_test_top.uart_env [build_phase] rhs_config: 
+# ---------------------------------------------
+# Name           Type              Size  Value 
+# ---------------------------------------------
+# rhs_cfg        uart_config       -     @371  
+#   data_width   integral          32    'd7   
+#   parity_type  parity_type_enum  2     NONE  
+#   stop_width   integral          32    'd2   
+#   baud_rate    integral          32    'd4800
+#   mode         mode_enum         32    RX_TX 
+# ---------------------------------------------
+# 
+# UVM_INFO ./../tb/uart_environment.sv(50) @ 0: uvm_test_top.uart_env [build_phase] Exiting...
+# UVM_INFO ./../uart_vip/uart_agent.sv(16) @ 0: uvm_test_top.uart_env.uart_lhs_agent [build_phase] Entered...
+# UVM_INFO ./../uart_vip/uart_agent.sv(40) @ 0: uvm_test_top.uart_env.uart_lhs_agent [uart_agent] Passive agent is config
+# UVM_INFO ./../uart_vip/uart_agent.sv(16) @ 0: uvm_test_top.uart_env.uart_rhs_agent [build_phase] Entered...
+# UVM_INFO ./../uart_vip/uart_agent.sv(26) @ 0: uvm_test_top.uart_env.uart_rhs_agent [uart_agent] Active agent is config
+# UVM_INFO ./../tb/uart_environment.sv(54) @ 0: uvm_test_top.uart_env [connect_phase] Entered...
+# UVM_INFO ./../tb/uart_environment.sv(62) @ 0: uvm_test_top.uart_env [connect_phase] Exiting...
+# UVM_INFO /ictc/other/tools/QuestaDVA/questasim/verilog_src/uvm-1.2/src/base/uvm_traversal.svh(279) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+# UVM_INFO ./../testcases/uart_base_test.sv(83) @ 0: uvm_test_top [start_of_simulation_phase] Entered...
+# UVM_INFO /ictc/other/tools/QuestaDVA/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(579) @ 0: reporter [UVMTOP] UVM testbench topology:
+# ------------------------------------------------------------------
+# Name                          Type                     Size  Value
+# ------------------------------------------------------------------
+# uvm_test_top                  uart_4800_RXTX_test      -     @344 
+#   uart_env                    uart_environment         -     @361 
+#     sb                        uart_scoreboard          -     @395 
+#       lhs_rx_export           uvm_analysis_imp_lhs_rx  -     @452 
+#       lhs_tx_export           uvm_analysis_imp_lhs_tx  -     @442 
+#       rhs_rx_export           uvm_analysis_imp_rhs_rx  -     @472 
+#       rhs_tx_export           uvm_analysis_imp_rhs_tx  -     @462 
+#     uart_lhs_agent            uart_agent               -     @409 
+#       monitor                 uart_monitor             -     @490 
+#         uart_observe_port_rx  uvm_analysis_port        -     @509 
+#         uart_observe_port_tx  uvm_analysis_port        -     @499 
+#     uart_rhs_agent            uart_agent               -     @418 
+#       driver                  uart_driver              -     @670 
+#         rsp_port              uvm_analysis_port        -     @689 
+#         seq_item_port         uvm_seq_item_pull_port   -     @679 
+#       monitor                 uart_monitor             -     @705 
+#         uart_observe_port_rx  uvm_analysis_port        -     @724 
+#         uart_observe_port_tx  uvm_analysis_port        -     @714 
+#       sequencer               uart_sequencer           -     @533 
+#         rsp_export            uvm_analysis_export      -     @542 
+#         seq_item_export       uvm_seq_item_pull_imp    -     @660 
+#         arbitration_queue     array                    0     -    
+#         lock_queue            array                    0     -    
+#         num_last_reqs         integral                 32    'd1  
+#         num_last_rsps         integral                 32    'd1  
+# ------------------------------------------------------------------
+# 
+# UVM_INFO ./../testcases/uart_base_test.sv(85) @ 0: uvm_test_top [start_of_simulation_phase] Exiting...
+# UVM_INFO ./../uart_vip/uart_driver.sv(19) @ 0: uvm_test_top.uart_env.uart_rhs_agent.driver [run_phase] ENTERED....
+# UVM_INFO ./../sequences/uart_sequence.sv(11) @ 0: uvm_test_top.uart_env.uart_rhs_agent.sequencer@@rhs_seq [uart_sequence] Send req to driver: 
+# -------------------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                                 
+# -------------------------------------------------------------------------------------------------------------
+# req                            uart_transaction  -     @783                                                  
+#   data                         integral          9     'b101001011                                           
+#   parity                       integral          1     'b0                                                   
+#   stop                         integral          2     'b0                                                   
+#   begin_time                   time              64    0                                                     
+#   depth                        int               32    'd2                                                   
+#   parent sequence (name)       string            7     rhs_seq                                               
+#   parent sequence (full name)  string            54    uvm_test_top.uart_env.uart_rhs_agent.sequencer.rhs_seq
+#   sequencer                    string            46    uvm_test_top.uart_env.uart_rhs_agent.sequencer        
+# -------------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ./../tb/uart_scoreboard.sv(62) @ 1979163000: uvm_test_top.uart_env.sb [uart_scoreboard] Get frame from rhs_tx: 
+# -------------------------------------------
+# Name      Type              Size  Value    
+# -------------------------------------------
+# is_trans  uart_transaction  -     @814     
+#   data    integral          9     'b1001011
+#   parity  integral          1     'b0      
+#   stop    integral          2     'b11     
+# -------------------------------------------
+# 
+# UVM_INFO ./../tb/uart_scoreboard.sv(55) @ 1979163000: uvm_test_top.uart_env.sb [uart_scoreboard] Get frame from lhs_rx: 
+# -------------------------------------------
+# Name      Type              Size  Value    
+# -------------------------------------------
+# r_trans   uart_transaction  -     @818     
+#   data    integral          9     'b1001011
+#   parity  integral          1     'b0      
+#   stop    integral          2     'b11     
+# -------------------------------------------
+# 
+# UVM_INFO ./../uart_vip/uart_driver.sv(49) @ 2187496000: uvm_test_top.uart_env.uart_rhs_agent.driver [run_phase] Drive completed
+# UVM_INFO ./../sequences/uart_sequence.sv(11) @ 2187496000: uvm_test_top.uart_env.uart_rhs_agent.sequencer@@rhs_seq [uart_sequence] Send req to driver: 
+# -------------------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                                 
+# -------------------------------------------------------------------------------------------------------------
+# req                            uart_transaction  -     @835                                                  
+#   data                         integral          9     'b10101000                                            
+#   parity                       integral          1     'b0                                                   
+#   stop                         integral          2     'b0                                                   
+#   begin_time                   time              64    2187496000                                            
+#   depth                        int               32    'd2                                                   
+#   parent sequence (name)       string            7     rhs_seq                                               
+#   parent sequence (full name)  string            54    uvm_test_top.uart_env.uart_rhs_agent.sequencer.rhs_seq
+#   sequencer                    string            46    uvm_test_top.uart_env.uart_rhs_agent.sequencer        
+# -------------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ./../tb/uart_scoreboard.sv(62) @ 4166659000: uvm_test_top.uart_env.sb [uart_scoreboard] Get frame from rhs_tx: 
+# ------------------------------------------
+# Name      Type              Size  Value   
+# ------------------------------------------
+# is_trans  uart_transaction  -     @841    
+#   data    integral          9     'b101000
+#   parity  integral          1     'b0     
+#   stop    integral          2     'b11    
+# ------------------------------------------
+# 
+# UVM_INFO ./../tb/uart_scoreboard.sv(55) @ 4166659000: uvm_test_top.uart_env.sb [uart_scoreboard] Get frame from lhs_rx: 
+# ------------------------------------------
+# Name      Type              Size  Value   
+# ------------------------------------------
+# r_trans   uart_transaction  -     @845    
+#   data    integral          9     'b101000
+#   parity  integral          1     'b0     
+#   stop    integral          2     'b11    
+# ------------------------------------------
+# 
+# UVM_INFO ./../uart_vip/uart_driver.sv(49) @ 4374992000: uvm_test_top.uart_env.uart_rhs_agent.driver [run_phase] Drive completed
+# UVM_INFO ./../sequences/uart_sequence.sv(11) @ 4374992000: uvm_test_top.uart_env.uart_rhs_agent.sequencer@@rhs_seq [uart_sequence] Send req to driver: 
+# -------------------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                                 
+# -------------------------------------------------------------------------------------------------------------
+# req                            uart_transaction  -     @861                                                  
+#   data                         integral          9     'b100011000                                           
+#   parity                       integral          1     'b0                                                   
+#   stop                         integral          2     'b0                                                   
+#   begin_time                   time              64    4374992000                                            
+#   depth                        int               32    'd2                                                   
+#   parent sequence (name)       string            7     rhs_seq                                               
+#   parent sequence (full name)  string            54    uvm_test_top.uart_env.uart_rhs_agent.sequencer.rhs_seq
+#   sequencer                    string            46    uvm_test_top.uart_env.uart_rhs_agent.sequencer        
+# -------------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ./../tb/uart_scoreboard.sv(62) @ 6354155000: uvm_test_top.uart_env.sb [uart_scoreboard] Get frame from rhs_tx: 
+# -----------------------------------------
+# Name      Type              Size  Value  
+# -----------------------------------------
+# is_trans  uart_transaction  -     @867   
+#   data    integral          9     'b11000
+#   parity  integral          1     'b0    
+#   stop    integral          2     'b11   
+# -----------------------------------------
+# 
+# UVM_INFO ./../tb/uart_scoreboard.sv(55) @ 6354155000: uvm_test_top.uart_env.sb [uart_scoreboard] Get frame from lhs_rx: 
+# -----------------------------------------
+# Name      Type              Size  Value  
+# -----------------------------------------
+# r_trans   uart_transaction  -     @871   
+#   data    integral          9     'b11000
+#   parity  integral          1     'b0    
+#   stop    integral          2     'b11   
+# -----------------------------------------
+# 
+# UVM_INFO ./../uart_vip/uart_driver.sv(49) @ 6562488000: uvm_test_top.uart_env.uart_rhs_agent.driver [run_phase] Drive completed
+# UVM_INFO /ictc/other/tools/QuestaDVA/questasim/verilog_src/uvm-1.2/src/base/uvm_objection.svh(1271) @ 6562488000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ./../testcases/uart_base_test.sv(91) @ 6562488000: uvm_test_top [final_phase] Entered....
+# 
+# =======================================
+#            ###Status: TEST PASSES###     
+# =======================================
+# 
+# UVM_INFO ./../testcases/uart_base_test.sv(104) @ 6562488000: uvm_test_top [final_phase] Exiting......
+# UVM_INFO /ictc/other/tools/QuestaDVA/questasim/verilog_src/uvm-1.2/src/base/uvm_report_catcher.svh(705) @ 6562488000: reporter [UVM/REPORT/CATCHER] 
+# --- UVM Report catcher Summary ---
+# 
+# 
+# Number of demoted UVM_FATAL reports  :    0
+# Number of demoted UVM_ERROR reports  :    0
+# Number of demoted UVM_WARNING reports:    0
+# Number of caught UVM_FATAL reports   :    0
+# Number of caught UVM_ERROR reports   :    0
+# Number of caught UVM_WARNING reports :    0
+# 
+# UVM_INFO /ictc/other/tools/QuestaDVA/questasim/verilog_src/uvm-1.2/src/base/uvm_report_server.svh(847) @ 6562488000: reporter [UVM/REPORT/SERVER] 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   36
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [NO_DPI_TSTNAME]     1
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVM/COMP/NAMECHECK]     1
+# [UVM/RELNOTES]     1
+# [UVM/REPORT/CATCHER]     1
+# [UVMTOP]     1
+# [build_phase]     8
+# [connect_phase]     2
+# [final_phase]     2
+# [run_phase]     4
+# [start_of_simulation_phase]     2
+# [uart_agent]     2
+# [uart_scoreboard]     6
+# [uart_sequence]     3
+# 
+# ** Note: $finish    : /ictc/other/tools/QuestaDVA/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(517)
+#    Time: 6562488 us  Iteration: 74  Instance: /testbench
+# End time: 01:05:11 on Jun 18,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
