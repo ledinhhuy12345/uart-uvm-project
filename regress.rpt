@@ -1,0 +1,60 @@
+###########################################################
+####               ICTC Regression Report              ####
+###########################################################
+Total testcase run: 49
+Passed            : 49
+Failed            : 0
+Unknown           : 0
+Used time         : 6m 38s
+-----------------------------------------------------------
+Run log detail:
+log/uart_115200_FULL_test_437961.log: => Passed
+log/uart_115200_RXTX_test_995224.log: => Passed
+log/uart_115200_TXRX_test_598442.log: => Passed
+log/uart_19200_FULL_test_261823.log: => Passed
+log/uart_19200_RXTX_test_713617.log: => Passed
+log/uart_19200_TXRX_test_860950.log: => Passed
+log/uart_1_bit_stop_FULL_test_841429.log: => Passed
+log/uart_1_bit_stop_RXTX_test_763613.log: => Passed
+log/uart_1_bit_stop_TXRX_test_862442.log: => Passed
+log/uart_2_bit_stop_FULL_test_326358.log: => Passed
+log/uart_2_bit_stop_RXTX_test_716576.log: => Passed
+log/uart_2_bit_stop_TXRX_test_184789.log: => Passed
+log/uart_4800_FULL_test_153629.log: => Passed
+log/uart_4800_RXTX_test_610878.log: => Passed
+log/uart_4800_TXRX_test_726787.log: => Passed
+log/uart_57600_FULL_test_455851.log: => Passed
+log/uart_57600_RXTX_test_848241.log: => Passed
+log/uart_57600_TXRX_test_190600.log: => Passed
+log/uart_5_bit_data_FULL_test_871176.log: => Passed
+log/uart_5_bit_data_RXTX_test_286480.log: => Passed
+log/uart_5_bit_data_TXRX_test_389939.log: => Passed
+log/uart_6_bit_data_FULL_test_282181.log: => Passed
+log/uart_6_bit_data_RXTX_test_284622.log: => Passed
+log/uart_6_bit_data_TXRX_test_972532.log: => Passed
+log/uart_7_bit_data_FULL_test_202249.log: => Passed
+log/uart_7_bit_data_RXTX_test_637812.log: => Passed
+log/uart_7_bit_data_TXRX_test_386422.log: => Passed
+log/uart_8_bit_data_FULL_test_657619.log: => Passed
+log/uart_8_bit_data_RXTX_test_685987.log: => Passed
+log/uart_8_bit_data_TXRX_test_453061.log: => Passed
+log/uart_9600_FULL_test_595865.log: => Passed
+log/uart_9600_RXTX_test_761031.log: => Passed
+log/uart_9600_TXRX_test_861627.log: => Passed
+log/uart_9_bit_data_FULL_test_529511.log: => Passed
+log/uart_9_bit_data_RXTX_test_589673.log: => Passed
+log/uart_9_bit_data_TXRX_test_539384.log: => Passed
+log/uart_EVEN_FULL_test_420590.log: => Passed
+log/uart_EVEN_RXTX_test_448631.log: => Passed
+log/uart_EVEN_TXRX_test_173858.log: => Passed
+log/uart_ODD_FULL_test_195547.log: => Passed
+log/uart_ODD_RXTX_test_478594.log: => Passed
+log/uart_ODD_TXRX_test_503387.log: => Passed
+log/uart_baudrate_mismatch_test_760686.log: => Passed
+log/uart_custom_FULL_test_548073.log: => Passed
+log/uart_custom_RXTX_test_540874.log: => Passed
+log/uart_custom_TXRX_test_538176.log: => Passed
+log/uart_datawidth_mismatch_test_329200.log: => Passed
+log/uart_parity_mismatch_test_199305.log: => Passed
+log/uart_stop_mismatch_test_668962.log: => Passed
+-----------------------------------------------------------
